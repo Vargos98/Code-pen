@@ -3,6 +3,10 @@
 import {Box, styled} from '@mui/material'
 import React from 'react'
 import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
+import {Controlled as ControlledEditor} from 'react-codemirror2';
+
+import 'codemirror/lib/codemirror.css';
+import 'codemirror/theme/material.css';
 
 const Heading = styled(Box)`
     background: #1d1e22;
